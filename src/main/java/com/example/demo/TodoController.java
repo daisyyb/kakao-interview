@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173") // 리액트 앱의 주소
+@CrossOrigin(origins = "http://localhost:5174") // 리액트 앱의 주소
 public class TodoController {
 
     private List<String> todos = new ArrayList<>();
